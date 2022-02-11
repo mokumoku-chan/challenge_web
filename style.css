@@ -40,7 +40,7 @@ header nav ul li {
   background-size: contain;
 }
 
-.title {
+.main-visual .title {
   color: #FAFAFA;
   font-size: 64px;
   padding-top: 200px;
@@ -70,7 +70,7 @@ header nav ul li {
   text-align: center;
 }
 
-.portfolio-content .line {
+.portfolio-content .line, .feature .line {
   width: 70px;
   height: 3px;
   background-color: #EC715F;
@@ -121,4 +121,55 @@ header nav ul li {
 
 .item:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
+}
+
+
+.feature {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature .title {
+  color: #000000;
+  font-size: 32px;
+  padding-top: 90px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.feature .text {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.strength-box {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.strength {
+  width: 320px;
+}
+
+.strength:nth-child(2) {
+  margin: 0 10px;
+}
+
+.icon {
+  font-size: 60px;
+  text-align: center;
+}
+
+.strength-title {
+  color: #000000;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.strength-text {
+  color: #000000;
+  font-size: 16px;
 }
