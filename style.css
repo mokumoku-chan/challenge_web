@@ -63,21 +63,21 @@ header nav ul li {
   margin: 0 auto;
 }
 
-.portfolio-content .title {
+.portfolio-content .title, .profile-content .title {
   color: #000000;
   font-size: 32px;
   padding-top: 90px;
   text-align: center;
 }
 
-.portfolio-content .line, .feature .line {
+.portfolio-content .line, .feature .line, .profile-content .line {
   width: 70px;
   height: 3px;
   background-color: #EC715F;
   margin: 8px auto 30px;
 }
 
-.portfolio-content .text {
+.portfolio-content .text, .profile-content .text {
   color: #000000;
   font-size: 16px;
   margin-bottom: 30px;
@@ -170,6 +170,50 @@ header nav ul li {
 }
 
 .strength-text {
+  color: #000000;
+  font-size: 16px;
+}
+
+.profile {
+  background-color: #ECEFF1;
+}
+
+.profile-content {
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.profile-detail {
+  display: flex;
+}
+
+.profile-img, .profile-text {
+  width: 512px;
+}
+
+.profile-img .img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+}
+
+.MyName {
+  color: #000000;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.MySkills {
+  color: #000000;
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.MyName-text, .MySkills-text {
   color: #000000;
   font-size: 16px;
 }
