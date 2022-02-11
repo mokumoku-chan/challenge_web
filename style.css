@@ -53,3 +53,72 @@ header nav ul li {
   padding-top: 10px;
   text-align: center;
 }
+
+.portfolio {
+  background-color: #ECEFF1;
+}
+
+.portfolio-content {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.portfolio-content .title {
+  color: #000000;
+  font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.portfolio-content .line {
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto 30px;
+}
+
+.portfolio-content .text {
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.item-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.item:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.item:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px 10px 10px;
+}
+
+.item:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+
+.item:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+
+.item:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 0 10px 90px 0;
+}
+
+.item:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
