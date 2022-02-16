@@ -276,3 +276,31 @@ footer {
   font-size: 16px;
   color: #FAFAFA;
 }
+
+
+
+@media screen and (max-width:768px) {
+  .header-content {
+    width: 90%;
+  }
+
+  .portfolio-content {
+    width: 90%;
+  }
+
+  .item-box {
+    display: block;
+  }
+
+  .feature {
+    width: 90%;
+  }
+
+  .profile-content {
+    width: 90%;
+  }
+  
+  .contact {
+    width: 90%;
+  }
+}
