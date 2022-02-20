@@ -362,10 +362,41 @@ footer {
     width: 90%;
   }
 
-  .item-box {
-    display: block;
+  .portfolio-content .title {
+    font-size: 32px;
+    color: #000000;
+    padding-top: 90px;
+    text-align: center;
   }
 
+  .item-box {
+    display: block;
+    padding-bottom: 90px;
+  }
+
+  .item:nth-child(1) {
+    display: none;
+  }
+
+  .item:nth-child(2) {
+    margin: 0 auto;
+  }
+
+  .item:nth-child(3) {
+    display: none;
+  }
+
+  .item:nth-child(4) {
+    margin: 10px auto;
+  }
+
+  .item:nth-child(5) {
+    display: none;
+  }
+
+  .item:nth-child(6) {
+    margin: 0 auto;
+  }
   .feature {
     width: 90%;
   }
