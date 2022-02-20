@@ -444,4 +444,18 @@ footer {
   .contact {
     width: 90%;
   }
+
+  .contact-content {
+    display: block;
+  }
+
+  .address, .SNS {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .SNS-title {
+    margin-top: 20px;
+  }
+
 }
