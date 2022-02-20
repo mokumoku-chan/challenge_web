@@ -1,6 +1,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e2c2aeffb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>>_ WALS成果物</title>
@@ -12,7 +13,16 @@
         <div class="logo_img">
           <img src="img/logo.png" alt="logo">
         </div>
-        <nav>
+
+        <div id="nav-toggle">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <nav class="list">
           <ul>
             <li>Portfolio</li>
             <li>Feature</li>
@@ -24,13 +34,15 @@
     </header>
 
     <div class="main-visual">
-      <p class="title">Lorem Ipsum</p>
-      <p class="text">simply dummy text of the printing</p>
+      <div class="main-visual-content">
+        <h1 class="title">Lorem Ipsum</h1>
+        <p class="text">simply dummy text of the printing</p>
+      </div>
     </div>
 
     <div class="portfolio">
       <div class="portfolio-content">
-        <p class="title">Portfolio</p>
+        <h1 class="title">Portfolio</h1>
         <div class="line"></div>
         <p class="text">It is a long established fact that a reader will be distracted by the readable<br> 
           content of page when looking at its layout.<br>
@@ -49,7 +61,7 @@
     </div>
 
     <div class="feature">
-      <p class="title">Feature</p>
+      <h2 class="title">Feature</h2>
       <div class="line"></div>
       <p class="text">It is a long established fact that a reader will be distracted by the readable<br>
         content of page when looking at its layout.<br>
@@ -59,7 +71,7 @@
       <div class="strength-box">
         <div class="strength">
           <div class="icon"><i class="fa-solid fa-code"></i></div>
-          <p class="strength-title">Strength 1</p>
+          <h3 class="strength-title">Strength 1</h3>
           <p class="strength-text">Contrary to popular belief, Lorem lpsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
             Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
@@ -68,7 +80,7 @@
 
         <div class="strength">
           <div class="icon"><i class="fa-solid fa-desktop"></i></div>
-          <p class="strength-title">Strength 1</p>
+          <h3 class="strength-title">Strength 1</h3>
           <p class="strength-text">Contrary to popular belief, Lorem lpsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
             Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
@@ -78,7 +90,7 @@
 
         <div class="strength">
           <div class="icon"><i class="fa-solid fa-gears"></i></div>
-          <p class="strength-title">Strength 1</p>
+          <h3 class="strength-title">Strength 2</h3>
           <p class="strength-text">Contrary to popular belief, Lorem lpsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
             Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
@@ -90,7 +102,7 @@
 
     <div class="profile">
       <div class="profile-content">
-        <p class="title">Profile</p>
+        <h1 class="title">Profile</h1>
         <div class="line"></div>
         <p class="text">It is a long established fact that a reader will be distracted by the readable<br>
           content of page when looking at its layout.<br>
@@ -102,7 +114,7 @@
            <div class="img"></div>
          </div>
          <div class="profile-text">
-           <p class="MyName">MyName</p>
+           <h3 class="MyName">MyName</h3>
            <p class="MyName-text">
             Contrary to popular belief, Lorem lpsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
@@ -110,7 +122,7 @@
             words, consectetur
            </p>
           
-           <p class="MySkills">MySkills</p>
+           <h3 class="MySkills">MySkills</h3>
            <p class="MySkills-text">HTML/CSS/JavaScript/JQuery/PhotoShop</p>
 
          </div>
@@ -119,28 +131,28 @@
     </div>
 
     <div class="contact">
-      <p class="title">Contact</p>
+      <h1 class="title">Contact</h1>
       <div class="line"></div>
       <p class="text">
         It is a long established fact that a reader will be distracted by the readable<br>
-        content of a page when looking at its layout.<br>
+        content of a page when looking at its layout.
         The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters
       </p>
 
       <div class="contact-content">
         <div class="address">
           <div class="address-content">
-            <p class="Mail">Mail</p>
+            <h3 class="Mail">Mail</h3>
             <p class="Mail-content">xxx@xxx.com</p>
-            <p class="TEL">TEL</p>
+            <h3 class="TEL">TEL</h3>
             <p class="TEL-content">000-0000-0000</p>
           </div>
         </div>
         <div class="SNS">
           <div class="social-icon">
-            <p class="SNS-title">SNS</p>
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-twitter-square"></i>
+            <h3 class="SNS-title">SNS</h3>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-instagram"></i>
           </div>
         </div>
