@@ -421,6 +421,26 @@ footer {
     width: 90%;
   }
 
+  .profile-detail {
+    display: block;
+  }
+
+  .profile-img {
+    margin: 0 auto;
+  }
+
+  .profile-img .img {
+    margin: 0 auto;
+  }
+
+  .profile-text {
+    margin: 0 auto;
+  }
+
+  .profile-text .MyName, .profile-text .MySkills, .profile-text .MyName-text, .profile-text .MySkills-text {
+    text-align: center;
+  }
+
   .contact {
     width: 90%;
   }
