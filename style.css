@@ -15,12 +15,12 @@ header {
    margin: auto;
 }
 
-header nav {
+header .list {
   margin: auto 0 auto auto;
   right: 0px;
 }
 
-header nav ul li {
+header .list ul li {
   display: inline-block;
   color: #FAFAFA;
   font-size: 16px;
@@ -280,8 +280,55 @@ footer {
 
 
 @media screen and (max-width:768px) {
+
+  header {
+    height: 50px;
+  }
+
+  .logo_img img {
+  height: 50px;
+}
+
   .header-content {
     width: 90%;
+  }
+
+  .list {
+    display: none;
+  }
+
+  #nav-toggle {
+    width: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    border: 1px solid;
+    border-color: white;
+    margin-left: auto;
+  }
+
+  .hamburger {
+  }
+
+  .hamburger span {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    left: 4px;
+  }
+
+  #nav-toggle span:nth-child(1) {
+    top: 8px;
+  }
+
+    #nav-toggle span:nth-child(2) {
+    top: 17px;
+  }
+
+    #nav-toggle span:nth-child(3) {
+    bottom: 8px;
   }
 
   .portfolio-content {
