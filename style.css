@@ -401,10 +401,26 @@ footer {
     width: 90%;
   }
 
+  .strength-box {
+    display: block;
+  }
+
+  .strength:nth-child(1) {
+    margin: 0 auto;
+  }
+
+  .strength:nth-child(2) {
+    margin: 10px auto;
+  }
+
+  .strength:nth-child(3) {
+    margin: 0 auto;
+  }
+
   .profile-content {
     width: 90%;
   }
-  
+
   .contact {
     width: 90%;
   }
